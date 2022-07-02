@@ -16,35 +16,124 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit&family=Prata&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body style="background-color: indianred">
-    <div
-      style="
-        background-color: darkslateblue;
-        border-top: solid darkslateblue 5px;
-      "
-    >
+    <!--NAVBAR-->
+    <div style="background-color: darkslateblue">
       <div
-        class="d-none d-sm-flex align-items-center mx-auto"
+        class="d-none d-sm-flex mx-auto align-items-center p-1"
         style="max-width: 1000px"
       >
-        <span class="me-auto h2" style="color: antiquewhite">MY RESUME</span>
+        <span
+          class="me-auto h2 mt-1"
+          style="color: antiquewhite; font-family: 'Abril Fatface', cursive"
+          >MY RESUME</span
+        >
         <div class="hstack gap-5">
           <a href="index.html">
-            <button type="button" class="btn btn-outline-light">HOME</button></a
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              style="font-family: 'Prata', serif"
+            >
+              HOME
+            </button></a
           >
           <a href="exp.html">
-            <button type="button" class="btn btn-outline-light">
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              style="font-family: 'Prata', serif"
+            >
               EXPERIENCE
             </button></a
           >
           <a href="contact.html"
-            ><button type="button" class="btn btn-outline-secondary">
+            ><button
+              type="button"
+              class="btn btn-outline-secondary"
+              style="font-family: 'Prata', serif"
+            >
               CONTACT
             </button></a
           >
         </div>
+      </div>
+      <!--small navbar-->
+      <div
+        class="h2 text-center d-block d-sm-none p-2"
+        style="color: darkslateblue; font-family: 'Abril Fatface', cursive"
+      >
+        MY RESUME
+      </div>
+    </div>
+
+    <!--contact me-->
+    <div style="background-color: antiquewhite; color: darkslateblue">
+      <h4
+        class="d-flex align-items-center flex-column rounded-3 ms-2 mt-3 p-1"
+        style="font-family: 'Abril Fatface', cursive"
+      >
+        CONTACT ME
+      </h4>
+    </div>
+
+    <!--text-->
+    <div class="mt-3 d-flex align-items-center mx-auto vstack" >
+      <div class="d-flex gap-3 align-items-center border border-2 rounded-3 p-2" >
+        <img
+        src="/image/profile.jpg"
+        width="200"
+        height="200"
+        style="object-fit: cover"
+        class="rounded-circle ms-2"
+      />
+      <!--text contact me-->
+      <div
+        class="card-text hstack gap-3 rounded-3 mt-3 p-2 mx-auto"
+        style="color:lightcoral"
+      >
+        <div class="text-sm-start lh-sm">
+          <p class="fw-bold">Name :</p>
+          <p class="fw-bold">Nickname :</p>
+          <p class="fw-bold">Adress :</p>
+          <p class="fw-bold">Facebook :</p>
+          <p class="fw-bold">Email :</p>
+          <p class="fw-bold">Phone :</p>
+          <p class="fw-bold">Freelance :</p>
+        </div>
+
+        <div
+          class="text-sm-start lh-sm"
+          style="
+            font-size: 15px;
+            font-family: 'Kanit', sans-serif;
+            color: antiquewhite;
+          "
+        >
+          <p>Worapitcha Muangyot</p>
+          <p>DREAM</p>
+          <p>2/8 หมู่5 บ้านใหม่ ตำบล หลวงเหนือ อำเภอ งาว จังหวัด ลำปาง 52110</p>
+          <p>https://www.facebook.com/worapitcha.muangyot/</p>
+          <p>https://www.facebook.com/worapitcha.muangyot/</p>
+          <p>098-818-7969</p>
+          <p>Available</p>
+        </div>
+      </div>
+    </div>
+    </div>
+      
+
+
+  
       </div>
     </div>
   </body>
